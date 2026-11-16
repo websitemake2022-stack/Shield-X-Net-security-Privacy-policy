@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#122544">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="Privacy Policy for Shield-X, an Android device security and performance application. Learn how device information, local security checks and online services are handled.">
+  <meta name="robots" content="index,follow">
+  <title>Privacy Policy | Shield-X</title>
+  <style>
+    :root { --navy:#122544; --navy-2:#1b355a; --ink:#1b2b42; --muted:#56677d; --teal:#0c827b; --soft:#f3f7fb; --line:#dce6ef; --white:#fff; --max:1120px; }
+    *,*::before,*::after { box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:90px; }
+    body { margin:0; background:var(--soft); color:var(--ink); font:16px/1.72 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif; -webkit-font-smoothing:antialiased; }
+    a { color:#076d79; text-underline-offset:3px; }
+    a:hover { color:#044d58; }
+    a:focus-visible { outline:3px solid #61b8cf; outline-offset:3px; border-radius:3px; }
+    .skip { position:absolute; top:-70px; left:12px; z-index:20; background:#fff; color:#13284b; padding:10px 14px; border-radius:8px; }
+    .skip:focus { top:8px; }
+    .container { max-width:var(--max); margin-inline:auto; padding-inline:24px; }
+    .top { background:var(--navy); color:white; border-bottom:1px solid #3c5270; }
+    .top-inner { display:flex; align-items:center; justify-content:space-between; gap:18px; min-height:74px; }
+    .brand { display:inline-flex; align-items:center; gap:11px; color:#fff; font-size:18px; font-weight:780; letter-spacing:.035em; text-decoration:none; }
+    .brand svg { width:37px; height:37px; flex:none; }
+    .top-meta { font-size:13px; color:#ccdaea; white-space:nowrap; }
+    .hero { background:linear-gradient(125deg,#122544 0%,#1c3a5d 74%,#125c66 100%); color:#fff; padding:64px 0 72px; }
+    .eyebrow { text-transform:uppercase; font-size:12px; font-weight:800; letter-spacing:.15em; color:#9ce5d9; }
+    h1 { font-size:clamp(35px,5.8vw,55px); line-height:1.12; letter-spacing:-.038em; margin:14px 0 18px; font-weight:790; }
+    .hero p { color:#e2edf5; max-width:720px; font-size:17px; line-height:1.7; margin:0; }
+    .updated { display:flex; gap:10px 22px; flex-wrap:wrap; font-size:13px; color:#dbe9f5; margin-top:28px; }
+    .updated strong { color:#fff; font-weight:650; }
+    .page-grid { display:grid; grid-template-columns:244px minmax(0,1fr); align-items:start; gap:26px; margin-top:-32px; padding-bottom:48px; }
+    .toc { position:sticky; top:18px; padding:25px 18px; border:1px solid var(--line); border-radius:15px; background:#fff; box-shadow:0 10px 35px #1225440c; }
+    .toc h2 { font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:#586d84; margin:0 8px 15px; }
+    .toc ul { list-style:none; padding:0; margin:0; }
+    .toc li { margin:1px 0; }
+    .toc a { display:block; padding:8px 10px; border-radius:7px; text-decoration:none; font-size:13px; line-height:1.35; color:#42536a; }
+    .toc a:hover,.toc a:focus { background:#eaf6f5; color:#075e58; }
+    .policy { background:#fff; border:1px solid var(--line); border-radius:17px; box-shadow:0 12px 38px #1225440d; padding:34px 44px 45px; min-width:0; }
+    .lead { color:#364a62; font-size:16px; }
+    .principles { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; margin:24px 0 33px; }
+    .principle { border:1px solid #cfe5e4; background:#f1faf8; border-radius:11px; padding:15px; min-width:0; }
+    .principle strong { display:block; color:#12655f; font-size:13px; line-height:1.4; margin-bottom:5px; }
+    .principle span { display:block; font-size:12px; line-height:1.5; color:#47665f; }
+    section { border-top:1px solid var(--line); padding-top:24px; margin-top:28px; }
+    section:first-of-type { margin-top:0; }
+    h2 { margin:0 0 10px; color:#183454; font-size:21px; line-height:1.35; letter-spacing:-.015em; }
+    h3 { font-size:16px; color:#233d5b; line-height:1.4; margin:18px 0 6px; }
+    p { margin:9px 0 13px; }
+    ul { padding-left:21px; margin:11px 0; }
+    li { padding-left:3px; margin:7px 0; }
+    .table-wrap { max-width:100%; overflow-x:auto; border:1px solid var(--line); border-radius:10px; margin:15px 0 20px; }
+    table { border-collapse:collapse; width:100%; min-width:560px; font-size:13px; line-height:1.6; }
+    th,td { text-align:left; vertical-align:top; padding:12px 14px; border-bottom:1px solid var(--line); }
+    th { background:#f4f7fa; color:#233a57; font-weight:750; }
+    tr:last-child td { border-bottom:none; }
+    .note { padding:14px 17px; background:#f3f8fc; color:#39556d; border-left:3px solid #40899d; border-radius:0 8px 8px 0; font-size:14px; margin:20px 0; }
+    .contact { border:1px solid #d0e7e4; background:#f6fbfa; border-radius:13px; padding:22px 23px; margin-top:18px; }
+    .contact p { margin:7px 0; overflow-wrap:anywhere; }
+    .button-link { display:inline-flex; align-items:center; justify-content:center; padding:10px 15px; border-radius:8px; background:#12766f; color:#fff; text-decoration:none; font-size:14px; font-weight:700; margin-top:10px; }
+    .button-link:hover { background:#0c5b55; color:white; }
+    code { font-size:.92em; background:#eaf1f6; padding:2px 5px; border-radius:4px; overflow-wrap:anywhere; }
+    footer { background:#f0f4f8; border-top:1px solid var(--line); padding:25px 0 34px; font-size:13px; color:#52647b; }
+    .footer-row { display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; }
+    @media (max-width:850px) { .page-grid { grid-template-columns:minmax(0,1fr); gap:16px; } .toc { position:static; padding:16px 19px; } .toc ul { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); } .policy { padding:30px; } }
+    @media (max-width:600px) { .container { padding-inline:16px; } .hero { padding:45px 0 58px; } .top-inner { min-height:66px; } .top-meta { font-size:11px; } .page-grid { margin-top:-20px; } .toc ul { grid-template-columns:1fr 1fr; } .policy { padding:24px 20px 29px; border-radius:13px; } .principles { grid-template-columns:1fr; gap:8px; } .principle { padding:12px 14px; } h2 { font-size:19px; } }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+    @media print { body { background:white; font-size:11pt; } .top,.hero { color:#122544; background:white; } .top { border:0; } .hero { padding:12px 0 20px; } .hero p,.top-meta,.updated,.updated strong,.brand,.eyebrow { color:#122544; } h1 { font-size:28pt; } .page-grid { display:block; margin:0; } .toc { display:none; } .policy { border:0; box-shadow:none; padding:0; } section { break-inside:avoid; } a { color:#122544; } footer { background:white; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to privacy policy</a>
+<header class="top"><div class="container top-inner">
+  <a class="brand" href="#top" aria-label="Shield-X privacy policy home">
+    <svg viewBox="0 0 48 48" fill="none" role="img" aria-label="Shield-X shield icon" xmlns="http://www.w3.org/2000/svg"><path d="M24 3 42 10v13c0 12-7.6 19-18 22C13.6 42 6 35 6 23V10L24 3Z" fill="#e3faf6"/><path d="M24 8 37 13v10c0 8.5-5 14.1-13 16.8C16 37.1 11 31.5 11 23V13L24 8Z" fill="#18776f"/><path d="m16.5 23.7 5.2 5.2 10-11" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>SHIELD-X</span>
+  </a>
+  <span class="top-meta">Security · Transparency · Control</span>
+</div></header>
+<div class="hero" id="top"><div class="container">
+  <div class="eyebrow">Your privacy matters</div>
+  <h1>Privacy Policy</h1>
+  <p>Clear information about the data Shield-X can access, how its Android security and optimization features use that data, and what happens when online security services are involved.</p>
+  <div class="updated"><span><strong>Effective:</strong> 16 November 2026</span><span><strong>Application:</strong> Shield-X for Android</span><span><strong>Publisher:</strong> Smart intelligent partner</span></div>
+</div></div>
+<div class="container page-grid" id="main">
+  <nav class="toc" aria-label="Privacy policy sections"><h2>On this page</h2><ul>
+    <li><a href="#overview">1. Overview</a></li>
+    <li><a href="#information">2. Information accessed</a></li>
+    <li><a href="#purposes">3. How information is used</a></li>
+    <li><a href="#ai">4. Local AI processing</a></li>
+    <li><a href="#online">5. Internet connections</a></li>
+    <li><a href="#sharing">6. Third-party services</a></li>
+    <li><a href="#permissions">7. Permissions</a></li>
+    <li><a href="#retention">8. Retention and deletion</a></li>
+    <li><a href="#choices">9. Your choices</a></li>
+    <li><a href="#security">10. Data security</a></li>
+    <li><a href="#children">11. Children's privacy</a></li>
+    <li><a href="#changes">12. Policy changes</a></li>
+    <li><a href="#contact">13. Contact</a></li>
+  </ul></nav>
+  <main class="policy">
+    <p class="lead">This Privacy Policy applies to the Shield-X Android application (package identifier <code>com.shieldx.mobile.security</code>), provided by <strong>Smart intelligent partner</strong> ("Shield-X", "we", "us", or "our"). It explains data handling for device security checks, network analysis, optional local AI assistance, and device maintenance features. The functionality and permissions available depend on the installed app version and the Android device.</p>
+    <div class="principles" aria-label="Privacy principles">
+      <div class="principle"><strong>Designed for on-device work</strong><span>Supported security checks and AI processing can run locally on your phone.</span></div>
+      <div class="principle"><strong>Online activity is explained</strong><span>Updates and reputation lookups can involve external services and network metadata.</span></div>
+      <div class="principle"><strong>Device controls remain yours</strong><span>Android provides settings to manage permissions and clear application data.</span></div>
+    </div>
+    <section id="overview"><h2>1. Overview</h2>
+      <p>Shield-X helps users inspect security-related information and understand device and network conditions. Certain functions may examine sensitive device information, including details about installed applications, user-selected files, or network connections. Accessing information on the device is different from collecting it on a developer-controlled server.</p>
+      <p>When a feature requires access to information, the information is used for that feature's operation. Local processing does not mean the app never communicates over the internet; the situations where external requests may occur are described below.</p>
+    </section>
+    <section id="information"><h2>2. Information Shield-X may access</h2>
+      <p>Depending on the features you use, your Android version, and the permissions you grant, the app can process the following categories:</p>
+      <div class="table-wrap"><table><thead><tr><th scope="col">Category</th><th scope="col">Examples</th><th scope="col">Purpose</th></tr></thead><tbody>
+        <tr><td><strong>Device and system details</strong></td><td>Android version, device model, battery status, available memory, CPU use and storage capacity</td><td>Display device health, assess resource use and support diagnostic or performance-related features</td></tr>
+        <tr><td><strong>Installed application details</strong></td><td>App names, package identifiers, versions and available security attributes</td><td>Identify potentially risky applications and present application security findings</td></tr>
+        <tr><td><strong>Network information</strong></td><td>Connectivity status, network type, IP and DNS information, domains, URLs and security-check outcomes</td><td>Run network checks and identify possible connection or destination risks</td></tr>
+        <tr><td><strong>Files and storage</strong></td><td>Storage usage, file metadata and contents of files made accessible for an available scan</td><td>Perform permitted security scans and user-directed storage maintenance</td></tr>
+        <tr><td><strong>Local AI and preferences</strong></td><td>Security findings, model inputs or outputs, feedback and user-selected settings</td><td>Explain findings, adjust local recommendations and remember permitted preferences</td></tr>
+        <tr><td><strong>Operational records</strong></td><td>Local scan outcomes, scan timestamps, errors, cached security data and settings</td><td>Show scan history, maintain app functionality and troubleshoot issues</td></tr>
+      </tbody></table></div>
+      <p>Some of these categories are considered personal or sensitive user data under platform rules or applicable laws. The list describes information the app may access for supported functions; it does not indicate that every category is always accessed or sent over a network.</p>
+    </section>
+    <section id="purposes"><h2>3. How Shield-X uses information</h2>
+      <ul>
+        <li><strong>Security monitoring:</strong> analyze available device, app, file and network indicators to generate risk findings and recommendations.</li>
+        <li><strong>Device performance:</strong> display resource usage and identify storage items or settings that may benefit from user review.</li>
+        <li><strong>Maintenance:</strong> carry out available cleanup or maintenance actions using the access Android allows and the controls exposed in the app.</li>
+        <li><strong>Personalization and diagnostics:</strong> maintain local settings, display results, and improve the relevance of supported on-device recommendations.</li>
+        <li><strong>Security information updates:</strong> retrieve current threat intelligence or reference information where an online feature is used.</li>
+      </ul>
+      <p>Security classifications are assessments, not guarantees. No security utility can promise to detect every threat or eliminate every risk. Device cleanup is limited by Android permissions and system restrictions.</p>
+    </section>
+    <section id="ai"><h2>4. On-device AI and local learning</h2>
+      <p>Where the installed version includes an on-device language model, Shield-X can use local model inference to interpret security findings, explain risks, and generate recommendations using phone resources. Feedback and preferences may be stored in the app's local data to inform later results.</p>
+      <p>Locally stored corrections or feedback are not the same as retraining a model's underlying weights. Online lookups initiated by an AI-supported feature are subject to the network disclosures in Section 5. The app's use of a local model does not, by itself, imply that any external provider receives model inputs.</p>
+    </section>
+    <section id="online"><h2>5. Internet access and external requests</h2>
+      <p>Some features use network access, including retrieving threat definitions or security reference data, checking a suspicious domain or URL, obtaining updated content, and accessing user-requested online information. When a request is made, the receiving website or security-data provider can process technical connection information such as your public IP address, request time, network headers and the requested resource.</p>
+      <p>Depending on the type of security lookup, the request may also contain the relevant <strong>domain, URL, file hash, application identifier or other indicator</strong> being checked. Such indicators can sometimes reveal information about device activity. Website operators and security information providers may keep their own service logs under their respective privacy policies.</p>
+      <p>Local scans do not automatically mean that an entire file is uploaded. Any feature that sends file contents or other sensitive material externally must disclose that behavior through the app's interface and obtain any consent required by law or Google Play policy.</p>
+      <div class="note">Shield-X may need internet access to keep security information current. Turning off network connectivity may limit update checks and online reputation features, while supported offline functions can remain available.</div>
+    </section>
+    <section id="sharing"><h2>6. Sharing and third-party services</h2>
+      <p>Information processed locally is not inherently shared with Shield-X or another party. When an enabled online function sends a request, the destination service receives the request information described above. Parties potentially involved in operating the app include:</p>
+      <ul>
+        <li><strong>Security intelligence or website providers:</strong> to respond to requested reputation checks, retrieve security updates or provide reference information. The data received depends on the request.</li>
+        <li><strong>Google Play and Android platform services:</strong> to distribute, install, update and, where applicable, process purchases of the app. Google's handling of platform and transaction data is governed by Google's policies.</li>
+        <li><strong>GitHub:</strong> to host this privacy-policy website and receive inquiries made through the linked repository. GitHub may process standard website access data.</li>
+      </ul>
+      <p>Data sent directly to external services may be subject to those services' own privacy and retention terms. This policy does not authorize undisclosed collection, sale, targeted advertising or transmission of user data by third-party libraries. Any analytics, crash-reporting, advertising or other SDK incorporated in a released version must be reflected in the app's disclosures and Google Play Data safety declaration.</p>
+    </section>
+    <section id="permissions"><h2>7. Android permissions and special access</h2>
+      <p>Shield-X may request ordinary permissions or Android-managed special access, depending on the installed version and enabled feature. Access can relate to internet connectivity, notifications, application visibility, usage information, or user-approved file and storage operations. Where special access is required, Android displays the relevant permission or settings control.</p>
+      <p>Review the permissions requested by Shield-X in <strong>Android Settings → Apps → Shield-X → Permissions</strong> and relevant <strong>Special app access</strong> screens. You may deny or withdraw permissions; affected scanning, monitoring or maintenance functions may then be unavailable.</p>
+      <p>Shield-X does not obtain unrestricted access merely because it describes a security or performance feature. Android's operating system enforces access and background-operation limits.</p>
+    </section>
+    <section id="retention"><h2>8. Data retention and deletion</h2>
+      <p>Settings, scan history, local AI feedback, cached security information and related records may be retained in app-controlled storage so features can work across sessions. The retention of any particular category depends on whether the feature stores it and the deletion controls implemented in the installed version.</p>
+      <p>You can remove Shield-X's private local application storage using <strong>Android Settings → Apps → Shield-X → Storage → Clear storage</strong> (menu labels vary by Android device), or uninstall the app. These actions do not necessarily remove exported files, device backups, or records held by an independent online service. If a feature provides its own deletion or history controls, those controls can be used as well.</p>
+      <p>For questions about any information held by the developer, or to request access or deletion where applicable, use the privacy contact in Section 13. Requests relating to data held by third-party services may also need to be addressed to those service providers. Records legitimately required for legal compliance or dispute resolution may be retained only where applicable.</p>
+    </section>
+    <section id="choices"><h2>9. Your privacy choices</h2>
+      <ul>
+        <li>Choose which available scans and online checks to run, subject to the controls offered by your installed version.</li>
+        <li>Review or revoke Android permissions and special app access.</li>
+        <li>Clear app storage or uninstall Shield-X to remove local app-controlled records, subject to Android backup and export behavior.</li>
+        <li>Contact the developer to ask questions or request assistance with your information.</li>
+      </ul>
+      <p>Your rights to access, correct, erase or object to certain processing can vary based on the laws that apply to you. Contact us using the details below to make a privacy-related request.</p>
+    </section>
+    <section id="security"><h2>10. Data security</h2>
+      <p>Shield-X is designed to use Android's application security boundaries and permissions for information it processes. Network connections and data saved on a phone involve risks; no application, device or network transmission method is completely secure. Users should keep Android updated and install app updates from trusted distribution channels.</p>
+      <p>Where the app communicates with remote services, handling and transport protections depend on the implementation and the destination provider. Security measures must be considered alongside the access requested by individual features, and we do not claim absolute protection against malware, data loss or unauthorized access.</p>
+    </section>
+    <section id="children"><h2>11. Children's privacy</h2>
+      <p>Shield-X is intended as a general device-security utility and is not designed specifically for children under 13. The app's available features and its Google Play target-audience declaration determine whether additional rules or protections apply. If you are a parent or guardian with a privacy concern involving a child, please contact us.</p>
+    </section>
+    <section id="changes"><h2>12. Changes to this policy</h2>
+      <p>We may update this policy to reflect changes to Shield-X, data handling practices, third-party integrations or applicable requirements. The latest version will appear on this page with an updated effective date. Where the law or platform policy requires additional notice or consent, those requirements apply.</p>
+    </section>
+    <section id="contact"><h2>13. Contact and privacy inquiries</h2>
+      <p>You can contact the developer about privacy questions, permission concerns, requests relating to your information, or this policy.</p>
+      <div class="contact">
+        <p><strong>Application:</strong> Shield-X</p>
+        <p><strong>Developer / publisher:</strong> Smart intelligent partner</p>
+        <p><strong>Privacy email:</strong> <a href="mailto:websitemake2022@gmail.com?subject=Shield-X%20Privacy%20Inquiry">websitemake2022@gmail.com</a></p>
+        <p><strong>Package identifier:</strong> <code>com.shieldx.mobile.security</code></p>
+        <p><strong>Privacy-policy repository:</strong> <a href="https://github.com/websitemake2022-stack/Shield-X-Net-security-Privacy-policy" target="_blank" rel="noopener noreferrer">Shield-X on GitHub</a></p>
+        <a class="button-link" href="mailto:websitemake2022@gmail.com?subject=Shield-X%20Privacy%20Inquiry">Contact privacy support</a>
+      </div>
+      <p class="note">Please avoid sending passwords, authentication codes or sensitive device files in an initial support inquiry.</p>
+    </section>
+  </main>
+</div>
+<footer><div class="container footer-row"><span>© 2026 Shield-X · Smart intelligent partner</span><span>Privacy Policy · Effective 16 November 2026</span></div></footer>
+</body>
+</html>
